@@ -1,0 +1,19 @@
+setting up the virtual environment:
+
+"E:\Python-3.8.20\python.exe" -m venv carlaenv
+
+
+Running the virtual environment:
+
+carlaenv\Scripts\activate
+
+
+Install necessary Packages:
+
+pip install carla
+pip install stable-baselines3[extra]
+pip install torch torchvision torchaudio
+pip install transformers
+pip install numpy matplotlib
+
+
